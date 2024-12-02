@@ -1,4 +1,3 @@
-use num::abs;
 use std::{
     fs::File,
     io::{BufRead, BufReader},
@@ -49,7 +48,7 @@ fn main() {
 
         for i in 1..report.len() {
             let diff = report[i] - report[i - 1];
-            let diff_abs = abs(diff);
+            let diff_abs = diff.abs();
             let direction = find_direction(diff);
 
             if expected_direction.is_none() {

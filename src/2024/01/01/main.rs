@@ -1,4 +1,3 @@
-use num::abs;
 use std::fs::File;
 use std::io::{BufRead, BufReader};
 
@@ -38,7 +37,7 @@ fn main() {
         let num1 = list1.pop().unwrap();
         let num2 = list2.pop().unwrap();
 
-        let distance = abs(num1 - num2) as usize;
+        let distance = (num1 - num2).abs() as usize;
         total_distance += distance;
     }
 
