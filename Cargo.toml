@@ -2,15 +2,19 @@
 name = "advent-of-code"
 version = "0.1.0"
 edition = "2021"
-default-run = "2024_01_02"
+default-run = "2024_02_01"
 
 [dependencies]
 num = "0.4.3"
 
 [[bin]]
-name = '2024_01_01'
+name = "2024_01_01"
 path = "src/2024/01/01/main.rs"
 
 [[bin]]
-name = '2024_01_02'
+name = "2024_01_02"
 path = "src/2024/01/02/main.rs"
+
+[[bin]]
+name = "2024_02_01"
+path = "src/2024/02/01/main.rs"
