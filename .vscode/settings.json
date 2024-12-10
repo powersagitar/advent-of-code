@@ -1,3 +1,9 @@
 {
-  "cSpell.words": ["Deque", "nums"]
+  "cSpell.words": [
+    "Deque",
+    "Itertools",
+    "multimap",
+    "nums",
+    "signum"
+  ]
 }
