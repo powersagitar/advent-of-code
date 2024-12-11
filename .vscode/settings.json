@@ -4,6 +4,7 @@
     "Itertools",
     "multimap",
     "nums",
+    "rfind",
     "rposition",
     "signum"
   ]

@@ -2,7 +2,7 @@
 name = "advent-of-code"
 version = "0.1.0"
 edition = "2021"
-default-run = "2024_09_01"
+default-run = "2024_09_02"
 
 [dependencies]
 multimap = "0.10.0"
@@ -60,3 +60,7 @@ path = "src/2024/07/02/main.rs"
 [[bin]]
 name = "2024_09_01"
 path = "src/2024/09/01/main.rs"
+
+[[bin]]
+name = "2024_09_02"
+path = "src/2024/09/02/main.rs"
